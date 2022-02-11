@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
     <!--> LauncherX 多语言文档注意事项 <-->
@@ -44,7 +44,7 @@
 
     <sys:String x:Key="GameStart">開始遊戲</sys:String>
     <sys:String x:Key="GameList">遊戲列表</sys:String>
-    <sys:String x:Key="Dashboard">儀表板</sys:String>
+    <sys:String x:Key="Dashboard">控制面板</sys:String>
     <sys:String x:Key="Settings">設定</sys:String>
 
     <sys:String x:Key="BetaHint">beta 版本，僅限開發人員使用</sys:String>
@@ -149,7 +149,7 @@
     <sys:String x:Key="ServerIpOrDomain">伺服器 IP/域名</sys:String>
     <sys:String x:Key="Port">端口</sys:String>
 
-    <sys:String x:Key="Path">位址</sys:String>
+    <sys:String x:Key="Path">文件路徑</sys:String>
     <sys:String x:Key="AdditionalArgument">額外參數</sys:String>
 
     <sys:String x:Key="LauncherBehavior">啟動器行為</sys:String>
@@ -479,7 +479,7 @@
 
     <sys:String x:Key="SystemInfo">系統資訊</sys:String>
     <sys:String x:Key="GameInfo">遊戲資訊</sys:String>
-    <sys:String x:Key="Memory">記憶體</sys:String>
+    <sys:String x:Key="Memory">內存</sys:String>
     <sys:String x:Key="Time">時間</sys:String>
     <sys:String x:Key="GameTime">遊戲時長</sys:String>
     <sys:String x:Key="Count">次數</sys:String>
@@ -524,7 +524,7 @@
     <sys:String x:Key="ForgeDescription">Minecraft Forge 是免費的開放源代碼修改 API 和載入程式，旨在簡化 Minecraft 中攝取創建的遊戲模塊之間的兼容性。</sys:String>
     <sys:String x:Key="FabricDescription">Fabric 是 Minecraft 的輕量級實驗修改工具鏈。</sys:String>
     <sys:String x:Key="LiteLoaderDescription">LiteLoader 是 Minecraft 的輕量級 Mod 載入器，旨在為不需要修改遊戲機制的 Mod 提供簡單、高性能和可靠的加載器功能。</sys:String>
-    <sys:String x:Key="OptifineDescription">提供 Minecraft 性能調整和高級圖形實現（例如光影）。</sys:String>
+    <sys:String x:Key="OptifineDescription">提供 Minecraft 性能調整和高級圖形實現（例如渲染器）。</sys:String>
 
     <sys:String x:Key="NotSupportedOperation">不受支持的操作</sys:String>
     <sys:String x:Key="MultiFilesNotSupportedOperationDetail">暫時還不支援多檔案操作，敬請期待。</sys:String>
@@ -694,11 +694,11 @@
 
     <sys:String x:Key="ConfirmDeleteImageDetail">確認刪除该背景？此操作無法撤銷。</sys:String>
 
-    <sys:String x:Key="Higgs">希格斯（最快）</sys:String>
-    <sys:String x:Key="Neutrino">中微子（快速）</sys:String>
-    <sys:String x:Key="Proton">質子（慢速）</sys:String>
+    <sys:String x:Key="Higgs">希格斯（快速測試通道通道）</sys:String>
+    <sys:String x:Key="Neutrino">中微子（標準測試通道）</sys:String>
+    <sys:String x:Key="Proton">質子（穩定測試通道）</sys:String>
 
-    <sys:String x:Key="Stable">穩定</sys:String>
+    <sys:String x:Key="Stable">穩定通道</sys:String>
 
     <sys:String x:Key="ServerNoContent">伺服器沒有返回內容</sys:String>
     <sys:String x:Key="FalseCredential">請輸入正確的帳戶和密碼</sys:String>
@@ -799,7 +799,7 @@
     <sys:String x:Key="MultiPlayerConnectionPleaseWait">請等待當前連線操作完成，最多需要等待約 1 分鐘</sys:String>
 
     <sys:String x:Key="ConnectFailed">連線失敗</sys:String>
-    <sys:String x:Key="FailedToCreateRoomDetail">無法創建房間，可能是因為網路波動所導致的。</sys:String>
+    <sys:String x:Key="FailedToCreateRoomDetail">無法創建房間，可能是因為網絡波動所導致的。</sys:String>
 
     <sys:String x:Key="RoomHasNoDescription">房間沒有描述</sys:String>
     <sys:String x:Key="RoomHasNoPwd">房間未設定密碼</sys:String>
@@ -836,7 +836,7 @@
     <sys:String x:Key="SetOfflineSkin">設定離線外觀</sys:String>
 
     <sys:String x:Key="MultiThreadDownload">多線程和分片下載</sys:String>
-    <sys:String x:Key="MultiThreadDownloadDescription">多線程和分片下載能夠提升遊戲的下載速度，但會顯著影響啟動器的性能。</sys:String>
+    <sys:String x:Key="MultiThreadDownloadDescription">多線程和分片下載能夠提升遊戲的下載速度，但會嚴重影響啟動器的性能。</sys:String>
 
     <sys:String x:Key="ConnectionInfo">連接資訊</sys:String>
     <sys:String x:Key="MultiPlayerServiceStatus">連線服務狀態</sys:String>
